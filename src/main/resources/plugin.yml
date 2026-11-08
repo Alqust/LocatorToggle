@@ -1,0 +1,16 @@
+name: LocatorToggle
+version: '${version}'
+main: me.locatortoggle.LocatorTogglePlugin
+api-version: '26.3'
+folia-supported: true
+description: Personal on/off switch for the Locator Bar
+commands:
+  locator:
+    description: Открыть меню локатора или переключить его
+    usage: /locator [on|off|toggle]
+    aliases: [lb, locatorbar]
+    permission: locatortoggle.use
+permissions:
+  locatortoggle.use:
+    description: Allows toggling your own Locator Bar
+    default: true
